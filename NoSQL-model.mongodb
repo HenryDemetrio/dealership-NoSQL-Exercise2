@@ -1,0 +1,113 @@
+use ("autopeças")
+
+
+db.clientes.insertMany([
+  {
+  identificador_cliente: 011,
+  nome: "Matheus Brasileiro",
+    endereço:{
+      rua: "dos fogos",
+      bairro: "mansões",
+      numero: 546
+    },
+    rg: "27828732874",
+    cpf: "2247824783",
+    telefone: "132874248",
+    celular: "1328742488",
+    carro: {
+      data_compra: "05/03/2022",
+      identificador_automoveis: 74,
+      marca: "honda",
+      modelo: "civic 2.0 turbo flex master pro",
+      ano_fabricacao: "2025",
+      ano_modelo: "2030",
+      placa: "odz-9248"
+    },
+      vendedor: {
+        identificador_vendedor: 001,
+        nome: "Cleber",
+      endereço:{
+        rua: "Caua",
+        bairro: "mongugagua",
+        numero: 99
+      },
+      rg: "34873487328",
+      cpf: "239828293834",
+      telefone: "11347834873",
+      celular: "1129849284"
+      },
+      revisão: {
+        kms: "150000",
+        data_da_revisao: "23/06/2022",
+        km_da_revisao: "10000",
+        id_do_carro: 74
+        },
+        tecnico:{
+          identificador_tecnico: 002,
+          nome: "Jorge",
+          endereço:{
+            rua: "avenida",
+            bairro: "centro",
+            numero: 23
+          }
+          },
+          rg: "3420942375",
+          cpf: "245507923-93",
+          telefone: "1197743211",
+          celular: "1197743211"
+  },
+  {
+  identificador_cliente: 012,
+  nome: "Jorge Matheus",
+    endereço:{
+      rua: "camaro amarelo",
+      bairro: "padre do balao",
+      numero: 957
+      },
+    rg: "21997413171",
+    cpf: "24550792874",
+    telefone: "15997431281",
+    celular: "15997431281",
+    carro: {
+      data_compra: "03/03/2022",
+      identificador_automoveis: 52,
+      marca: "tesla",
+      modelo: "model relampago marcos",
+      ano_fabricacao: "2021",
+      ano_modelo: "2022",
+      placa: "tue-7766"
+      },
+      vendedor: {
+        identificador_vendedor: 002,
+        nome: "Joao",
+      endereço:{
+        rua: "Carlos",
+        bairro: "madero",
+        numero: 777
+        },
+      rg: "23903487548",
+      cpf: "28342984843",
+      telefone: "11997413182",
+      celular: "119931718233"
+      },
+      revisão: {
+        kms: "20000",
+        data_da_revisao: "10/06/2022",
+        km_da_revisao: "10000",
+        id_do_carro: 52
+        },
+        tecnico:{
+          identificador_tecnico: 003,
+          nome: "Roberto",
+          endereço:{
+            rua: "avenida sul",
+            bairro: "capão",
+            numero: 7}
+          },
+          rg: "22498324783",
+          cpf: "34592498424",
+          telefone: "15994138121",
+          celular: "15994138121"
+          }
+  
+])
